@@ -2,7 +2,7 @@ package main.ch05;
 
 import java.util.Arrays;
 
-public class Ex5_5 {
+public class Ex5_05 {
 
 	public static void main(String[] args) {
 		// index : 0~45-1, 0~44

@@ -2,7 +2,7 @@ package main.ch04;
 
 import java.util.Scanner;
 
-public class Ex4_4 {
+public class Ex4_04 {
 
 	public static void main(String[] args) {
 		int score = 0; // 점수를 저장하기 위한 변수

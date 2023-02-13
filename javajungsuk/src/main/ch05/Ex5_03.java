@@ -1,6 +1,6 @@
 package main.ch05;
 
-public class Ex5_3 {
+public class Ex5_03 {
 
 	public static void main(String[] args) {
 		int[] score = { 79, 88, 97, 33, 100, 55, 95 };

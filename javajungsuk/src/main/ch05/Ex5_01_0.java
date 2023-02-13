@@ -1,6 +1,6 @@
 package main.ch05;
 
-public class Ex5_1_0 {
+public class Ex5_01_0 {
 
 	public static void main(String[] args) {
 //		int[] score; // 1. 배열 score를 선언(참조변수)

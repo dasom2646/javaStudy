@@ -1,6 +1,6 @@
 package main.ch03;
 
-public class Ex3_9 {
+public class Ex3_09 {
 	public static void main(String[] args) {
 		double pi = 3.141592; // 3.141을 얻을려면?
 

@@ -2,7 +2,7 @@ package main.ch05;
 
 import java.util.Arrays; // ctrl+shift+o 자동으로 import문 추가
 
-public class Ex5_1_3 {
+public class Ex5_01_3 {
 
 	public static void main(String[] args) {
 		int[] iArr1 = new int[10];

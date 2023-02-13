@@ -1,6 +1,6 @@
 package main.ch05;
 
-public class Ex5_2 {
+public class Ex5_02 {
 
 	public static void main(String[] args) {
 		int sum = 0; // 총합을 저장하기 위한 변수

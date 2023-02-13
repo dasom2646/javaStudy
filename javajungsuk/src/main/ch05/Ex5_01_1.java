@@ -1,6 +1,6 @@
 package main.ch05;
 
-public class Ex5_1 {
+public class Ex5_01_1 {
 
 	public static void main(String[] args) {
 		// index범위: 0~9
