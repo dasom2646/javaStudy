@@ -1,4 +1,4 @@
-package main.ch7.pkg1;
+package main.ch7.codechobo;
 
 class MyParent {
 	private   int prv; // 같은 클래스
@@ -14,7 +14,7 @@ class MyParent {
 	}
 }
 
-public class MyParentTest {
+class MyParentTest {
 	public static void main(String[] args) {
 		MyParent p = new MyParent();
 //		System.out.println(p.prv); // 에러 범위를 벗어남
