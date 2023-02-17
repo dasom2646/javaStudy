@@ -1,4 +1,4 @@
-package main.ch7.pkg1;
+package main.ch07.codechobo;
 
 class MyParent {
 	private   int prv; // 같은 클래스
@@ -14,10 +14,10 @@ class MyParent {
 	}
 }
 
-class MyParentTest { //접근제어자가 (default)
+class MyParentTest {
 	public static void main(String[] args) {
 		MyParent p = new MyParent();
-//		System.out.println(p.prv); // 에러 범위를 벗어남// OK
+//		System.out.println(p.prv); // 에러 범위를 벗어남
 		System.out.println(p.dft); // OK
 		System.out.println(p.prt); // OK
 		System.out.println(p.pub); // OK

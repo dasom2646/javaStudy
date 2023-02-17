@@ -1,4 +1,4 @@
-package main.ch7;
+package main.ch07;
 
 import java.awt.*;
 import java.awt.event.*;
