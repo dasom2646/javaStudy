@@ -1,6 +1,6 @@
 package main.ch06;
 
-public class Ex6_3 {
+public class Ex6_03 {
 	public static void main(String args[]) {
 		System.out.println("Card.width = " + Card.width); //Card.width,Card.height = cv 객체생성 없이 사용가능
 		System.out.println("Card.height = " + Card.height);

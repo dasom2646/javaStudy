@@ -1,6 +1,6 @@
 package main.ch06;
 
-public class Ex6_2 {
+public class Ex6_02 {
 
 	public static void main(String[] args) {
 		Tv t1 = new Tv(); // Tv t1; t1 = new Tv();를 한 문장으로 가능
