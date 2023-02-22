@@ -10,8 +10,8 @@ public class Ex10_05 {
 			System.out.println("Usage : java Ex10_5 2019 9");
 			return;
 		}
-		int year = Integer.parseInt(args[0]);
-		int month = Integer.parseInt(args[1]);
+		int year = 2020;
+		int month = 8;
 		int START_DAY_OF_WEEK = 0;
 		int END_DAY = 0;
 
@@ -32,7 +32,7 @@ public class Ex10_05 {
 		// eDay에 지정된 날짜를 얻어온다.
 		END_DAY = eDay.get(Calendar.DATE);
 
-		System.out.println("      " + args[0] + "년 " + args[1] + "월");
+		System.out.println("      " + year + "년 " +month + "월");
 		System.out.println(" SU MO TU WE TH FR SA");
 
 		// 해당 월의 1일이 어느 요일인지에 따라서 공백을 출력한다.
