@@ -24,28 +24,32 @@ public class Ex11_12 {
 		setB.add("8");
 		System.out.println("B = " + setB);
 
-		// 교집합
-		Iterator it = setB.iterator();
-		while (it.hasNext()) {
-			Object tmp = it.next();
-			if (setA.contains(tmp))
-				setKyo.add(tmp);
-		}
+//		setA.retainAll(setB); // 교집합. 공통된 요소만 남기고 삭제
+		setA.addAll(setB); // 교집합. setB의 모든 요소를 추가(중복 제외)
+		setA.removeAll(setB);// 차집합. setB와 공통 요소를 제거
+		System.out.println(setA);
 
-		it = setA.iterator();
-		while (it.hasNext()) {
-			Object tmp = it.next();
-			if (!setB.contains(tmp))
-				setCha.add(tmp);
-		}
+//		Iterator it = setB.iterator();
+//		while (it.hasNext()) {
+//			Object tmp = it.next();
+//			if (setA.contains(tmp))
+//				setKyo.add(tmp);
+//		}
 
-		it = setA.iterator();
-		while (it.hasNext())
-			setHab.add(it.next());
-
-		it = setB.iterator();
-		while (it.hasNext())
-			setHab.add(it.next());
+//		it = setA.iterator();
+//		while (it.hasNext()) {
+//			Object tmp = it.next();
+//			if (!setB.contains(tmp))
+//				setCha.add(tmp);
+//		}
+//
+//		it = setA.iterator();
+//		while (it.hasNext())
+//			setHab.add(it.next());
+//
+//		it = setB.iterator();
+//		while (it.hasNext())
+//			setHab.add(it.next());
 
 		System.out.println("A ∩ B = " + setKyo); // 한글 ㄷ을 누르고 한자키
 		System.out.println("A U B = " + setHab); // 한글 ㄷ을 누르고 한자키
