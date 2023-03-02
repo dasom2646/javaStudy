@@ -2,7 +2,7 @@ package main.ch14;
 
 import java.util.function.Function;
 
-public class Ex14_00 {
+public class Ex14_0_1 {
 
 	public static void main(String[] args) {
 //		Function<String, Integer> f = (String s) -> Integer.parseInt(s);

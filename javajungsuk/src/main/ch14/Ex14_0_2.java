@@ -2,7 +2,7 @@ package main.ch14;
 
 import java.util.function.Function;
 
-public class Ex14_000 {
+public class Ex14_0_2{
 
 	public static void main(String[] args) {
 		// Supplier는 입력X, 출력O

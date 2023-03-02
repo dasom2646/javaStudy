@@ -2,7 +2,7 @@ package main.ch14;
 
 import java.util.function.*;
 
-class Ex14_03 {
+public class Ex14_03 {
 	public static void main(String[] args) {
 		Function<String, Integer> f = (s) -> Integer.parseInt(s, 16);
 		Function<Integer, String> g = (i) -> Integer.toBinaryString(i);
