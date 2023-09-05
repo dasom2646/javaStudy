@@ -2,7 +2,8 @@
 이 저장소는 자바의 정석 기초편을 학습하고 기록하며 공부한 자료를 정리하는 공간입니다. 
 
 국비 교육 수료 후 추가 학습을 목적으로 각 챕터를 복습하였으며, 자세한 내용은 제 블로그에서 확인하실 수 있습니다.
- ✔️(https://velog.io/@soso)https://velog.io/@soso
+
+✔️  [(https://velog.io/@soso)https://velog.io/@soso](https://velog.io/@soso)
 
 아래 각 챕터별 소개와 간략한 설명을 적어두었습니다
 
