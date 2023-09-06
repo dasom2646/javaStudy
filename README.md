@@ -1,13 +1,13 @@
 # 📒javaStudy with 남궁성의 자바의 정석
-이 저장소는 자바의 정석 기초편을 학습하고 기록하며 공부한 자료를 정리하는 공간입니다. 
-
-국비 교육 수료 후 추가 학습을 목적으로 각 챕터를 복습하였으며, 자세한 내용은 제 블로그에서 확인하실 수 있습니다.
-
+이 저장소는 자바의 정석 기초편을 학습하고 기록하며 공부한 자료를 정리하는 공간입니다.  
+국비 교육 수료 후 추가 학습을 목적으로 각 챕터를 복습하였으며, 자세한 내용은 제 블로그에서 확인하실 수 있습니다.  
 ✔️  [(https://velog.io/@soso)https://velog.io/@soso](https://velog.io/@soso)
 
-아래 각 챕터별 소개와 간략한 설명을 적어두었습니다
+**아래 각 챕터별 소개와 간략한 설명을 적어두었습니다**
 
-----
+<details>
+<summary>Chapter 1: 자바를 시작하기 전</summary>
+ 
 ### Chapter 1: 자바를 시작하기 전
 이 장에서는 자바 프로그래밍을 시작하기 전에 필요한 기초적인 내용.
 
@@ -78,6 +78,10 @@ openFile
 -Xdock:icon=../Resources/Eclipse.icns
 -XstartOnFirstThread
 -Dorg.eclipse.swt.internal.carbon.smallFonts
+</details>
+
+<details>
+<summary>Chapter 2: 변수</summary>
 
 ### Chapter 2: 변수
 Chapter 2에서는 프로그래밍에서 가장 기본적인 요소 중 하나인 변수와 관련된 주제 설명.
@@ -103,9 +107,12 @@ Chapter 2에서는 프로그래밍에서 가장 기본적인 요소 중 하나�
 #### 변수 초기화:
 - 변수를 초기화하는 방법과 초기화하지 않았을 때의 동작을 설명.
 - 초기화되지 않은 변수 사용에 따른 오류를 방지하기 위한 안내를 제공.
+  </details>
+<details>
+<summary>Chapter 3: 연산자</summary>
   
 ### Chapter 3: 연산자
-Chapter 3에서는 자바 프로그래밍에서 핵심 요소 중 하나인 연산자와 연산자의 종류, 그리고 연산자의 우선순위에 대한 내용.
+Chapter 3에서는 자바 프로그래밍에서 핵심 요소 중 하나인 연산자와 연산자의 종류, 그리고 연산자의 우선순위에 대한 내용.  
 연산자의 중요성을 강조하며, 연산자를 올바르게 이해하고 활용하는 데 도움을 주는 내용을 다룸.
 
 #### 연산자의 종류:
@@ -118,7 +125,12 @@ Chapter 3에서는 자바 프로그래밍에서 핵심 요소 중 하나인 연�
 #### 연산자의 우선순위:
 - 연산자들 간의 우선순위 규칙을 설명하고, 연산자 우선순위를 변경하기 위한 괄호 사용법을 안내.
 - 우선순위에 따라 연산이 어떻게 수행되는지를 설명.
-- 
+
+</details>
+
+<details>
+<summary>Chapter 4: 조건문과 반복문</summary> 
+ 
 ### Chapter 4: 조건문과 반복문
 
 Chapter 4에서는 프로그램의 흐름을 제어하기 위한 조건문과 반복문에 대한 내용.
@@ -139,6 +151,11 @@ Chapter 4에서는 프로그램의 흐름을 제어하기 위한 조건문과 �
 #### break와 continue:
 - break와 continue 문을 사용하여 반복문의 흐름을 제어하는 방법을 설명.
 
+</details>
+
+<details>
+<summary>Chapter 5: 배열</summary> 
+ 
 ### Chapter 5: 배열
 
 #### 배열의 선언과 생성:
@@ -160,6 +177,12 @@ Chapter 4에서는 프로그램의 흐름을 제어하기 위한 조건문과 �
 2차원 배열을 선언하고 생성하는 방법을 설명. 
 - 2차원 배열은 행과 열로 구성된 데이터 구조.
 - 2차원 배열의 요소에 접근하고 조작하는 방법.
+
+
+</details>
+
+<details>
+<summary>Chapter 6: 객체지향 프로그래밍Ⅰ</summary> 
 
 ### Chapter 6: 객체지향 프로그래밍Ⅰ
 Chapter 6에서는 객체지향 프로그래밍의 기초 개념과 객체지향 언어에서 객체의 구성요소, 객체 생성과 사용, 클래스의 정의, 클래스 변수와 인스턴스 변수에 대한 내용.
@@ -193,6 +216,11 @@ Chapter 6에서는 객체지향 프로그래밍의 기초 개념과 객체지향
 - 생성자는 객체를 만들 때 호출되며, 초기값을 설정. 
 - 객체를 생성하면 해당 클래스의 생성자가 자동으로 호출되어 초기화 작업을 수행.
 
+</details>
+
+<details>
+<summary>Chapter 7: 객체지향 프로그래밍Ⅱ</summary> 
+
 ### Chapter 7: 객체지향 프로그래밍Ⅱ
 Chapter 7에서는 객체지향 프로그래밍의 고급 주제를 다루는 내용.
 #### 상속(Inheritance):
@@ -224,6 +252,11 @@ Chapter 7에서는 객체지향 프로그래밍의 고급 주제를 다루는 �
 
 - 내부 클래스의 개념과 종류 소개: 클래스 내부에 정의된 클래스.
 - 내부 클래스를 사용하여 캡슐화와 구현 세부 사항을 숨기는 방법을 다룸.
+
+</details>
+
+<details>
+<summary>Chapter 8: 예외처리</summary> 
   
 ### Chapter 8: 예외처리
 Chapter 8에서는 예외처리와 관련된 주제 다룸.
@@ -244,6 +277,11 @@ Chapter 8에서는 예외처리와 관련된 주제 다룸.
 #### finally 블록:
 - try-catch 블록 다음에 finally 블록을 사용하여 특정 코드를 항상 실행하는 방법을 설명. 
 - 이는 예외가 발생하든 발생하지 않든 실행되어야 하는 코드를 작성할 때 유용.
+
+</details>
+
+<details>
+<summary>Chapter 9: java.lang패키지와 유용한 클래스</summary> 
 
 ### Chapter 9: java.lang패키지와 유용한 클래스
 Chapter 9에서는 자바의 java.lang 패키지와 몇 가지 유용한 클래스에 대한 핵심 내용을 다룸.
@@ -269,6 +307,12 @@ Chapter 9에서는 자바의 java.lang 패키지와 몇 가지 유용한 클래�
 
 #### 예외 클래스: 
 - 자주 사용되는 예외 클래스인 NullPointerException, IllegalArgumentException, NumberFormatException 등을 다루며, 예외 처리 방법 설명.
+
+</details>
+
+<details>
+<summary>Chapter 10: 날짜와 시간 & 형식화</summary> 
+
   
 ### Chapter 10: 날짜와 시간 & 형식화
 Chapter 10에서는 날짜와 시간 처리, Calendar 클래스, 그리고 형식화와 관련된 주요 주제를 다룸.
@@ -280,6 +324,11 @@ Chapter 10에서는 날짜와 시간 처리, Calendar 클래스, 그리고 형�
 - Calendar 클래스를 사용하여 날짜와 시간을 계산하고 조작하는 방법을 다룹니다. 예를 들어, 년, 월, 일 등을 조작하는 방법을 설명.
 #### 형식화 클래스 (Formatting Classes):
 - 날짜와 숫자를 형식화하고 파싱하는 클래스에 대한 개념 소개.
+
+</details>
+
+<details>
+<summary>Chapter 11: 컬렉션 프레임워크</summary> 
 
 ### Chapter 11: 컬렉션 프레임워크
 Chapter 11에서는 Java의 컬렉션 프레임워크에 대한 핵심 내용.
@@ -311,10 +360,15 @@ Chapter 11에서는 Java의 컬렉션 프레임워크에 대한 핵심 내용.
 - 이진 탐색 트리(Binary Search Tree, BST)에 대한 소개.
 - BST의 개념과 특징, 데이터 삽입 및 검색 방법을 다룸.
 
+</details>
+
+<details>
+<summary>Chapter 12: 지네릭스, 열거형, 애너테이션</summary> 
+
 ### Chapter 12: 지네릭스, 열거형, 애너테이션
 
-Chapter 12에서는 지네릭스(Generics), 열거형(Enum), 그리고 애너테이션(Annotation)에 대한 주요 내용.
- 이러한 기능들은 자바 프로그래밍을 보다 효율적이고 안전하게 만들어주고, 코드 문서화와 관련된 정보를 추가하는 데 유용 함.
+Chapter 12에서는 지네릭스(Generics), 열거형(Enum), 그리고 애너테이션(Annotation)에 대한 주요 내용.  
+이러한 기능들은 자바 프로그래밍을 보다 효율적이고 안전하게 만들어주고, 코드 문서화와 관련된 정보를 추가하는 데 유용 함.
 
 #### 지네릭스 (Generics):
 - 지네릭스의 개념 소개: 제네릭 프로그래밍을 통해 타입 안전성을 확보하는 방법을 설명.
@@ -327,6 +381,11 @@ Chapter 12에서는 지네릭스(Generics), 열거형(Enum), 그리고 애너테
 #### 애너테이션 (Annotation):
 - 애너테이션의 개념 소개: 애너테이션의 역할과 사용 사례에 대한 이해를 제공.
 - 빌트인 애너테이션(@Override, @Deprecated 등)과 사용자 정의 애너테이션 작성 방법을 다룸.
+
+</details>
+
+<details>
+<summary>Chapter 13: 쓰레드</summary> 
 
 ### Chapter 13: 쓰레드
 
@@ -349,6 +408,11 @@ Chapter 13에서는 프로세스와 쓰레드, 멀티쓰레딩의 장단점, 쓰
 #### 쓰레드의 동기화:
 - 쓰레드 간의 공유 데이터와 동기화의 필요성에 대한 이해.
 - 동기화 메커니즘과 synchronized 키워드를 사용하여 쓰레드 간의 경쟁 상황을 제어하는 방법을 다룸.
+
+</details>
+
+<details>
+<summary>Chapter 14: 람다와 스트림</summary> 
  
 ### Chapter 14: 람다와 스트림
 Chapter 14에서는 람다식(Lambda Expression), 스트림(Stream), 그리고 스트림의 특징, 연산, 그리고 Optional<T> 클래스, collect() 메서드와 Collectors 클래스에 대한 핵심 내용을 다룸.
@@ -374,8 +438,13 @@ Chapter 14에서는 람다식(Lambda Expression), 스트림(Stream), 그리고 �
 #### collect()와 Collectors:
 - collect() 메서드와 Collectors 클래스를 사용하여 스트림 요소를 수집하고 그룹화하는 방법을 다룸.
 
+</details>
+
+<details>
+<summary>Chapter 15: 입출력 I/O</summary> 
+
 ### Chapter 15: 입출력 I/O
-Chapter 15에서는 입출력(I/O)과 스트림(Stream)에 관한 주요 내용.
+Chapter 15에서는 입출력(I/O)과 스트림(Stream)에 관한 주요 내용.  
 입출력 처리와 스트림, 바이트 및 문자 기반 입출력, 표준 입출력, 직렬화 등 입출력에 관련된 중요한 개념과 기능을 다룸.
 
 #### 입출력(I/O)과 스트림:
@@ -407,5 +476,7 @@ Chapter 15에서는 입출력(I/O)과 스트림(Stream)에 관한 주요 내용.
 - 객체 직렬화와 역직렬화의 개념과 사용법에 대한 소개.
 - **ObjectInputStream**과 **ObjectOutputStream** 클래스를 사용하여 객체를 파일로 저장하고 읽는 방법을 다룸.
 
-### 📌 자세한 내용은 남궁성 저자님의 깃허브 페이지를 참조해주세요 https://github.com/castello/javajungsuk_basic
+</details>
+
+#### 📌 자세한 내용은 남궁성 저자님의 깃허브 페이지를 참조해주세요 https://github.com/castello/javajungsuk_basic
 
